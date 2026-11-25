@@ -155,7 +155,7 @@ export default function About() {
                 </div>
 
                 {/* Equipe */}
-                <div className="mt-24 border-t border-navy/10 pt-12 ">
+                <div className="mt-24 border-t border-navy/10 pt-12">
 
                     <motion.div {...reveal} className="mb-10">
                         <p className="mb-4 font-[raleway] text-sm font-bold uppercase tracking-[0.12em] text-navy/60">
@@ -188,7 +188,7 @@ export default function About() {
                                     ease: "easeOut",
                                 }}
                             >
-                                <div className="mb-4 flex aspect-[4/3] items-center justify-center bg-navy/10">
+                                <div className="mb-4 flex aspect-[4/3] items-center justify-center bg-[#E5E0D5]">
                                     <span className="font-[Libre-Baskerville] text-4xl text-navy/40">
                                         {member.name.charAt(0)}
                                     </span>

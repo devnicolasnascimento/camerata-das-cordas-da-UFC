@@ -18,7 +18,7 @@ export default function Hero() {
     return (
         <section
             id="inicio"
-            className="relative overflow-hidden bg-navy px-6 py-20 text-center text-white md:py-24"
+            className="relative flex min-h-[calc(100dvh-6rem)] items-center justify-center overflow-hidden bg-navy px-6 py-16 text-center text-white"
         >
             <div className="relative mx-auto flex max-w-4xl flex-col items-center">
 
