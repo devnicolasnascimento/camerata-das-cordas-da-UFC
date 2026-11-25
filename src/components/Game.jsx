@@ -29,45 +29,44 @@ export default function Game() {
             className="bg-cream px-6 py-24"
         >
             <div className="mx-auto max-w-6xl">
-                <div className="border-y border-navy/20 py-12">
-                    <div className="grid gap-10 md:grid-cols-[1fr_1fr] md:items-center">
 
-                        <motion.div {...reveal}>
-                            <p className="mb-4 font-[raleway] text-sm text-amber-800">
-                                Aprendizado interativo
-                            </p>
+                <motion.div
+                    {...reveal}
+                    className="border-y border-navy/20 py-10 md:py-14"
+                >
+                    <div className="mb-10 flex items-center justify-between">
+                        <p className="font-[raleway] text-sm text-amber-800">
+                            Aprendizado interativo
+                        </p>
 
-                            <h2 className="max-w-lg font-[Libre-Baskerville] text-4xl leading-tight text-navy md:text-5xl">
-                                Você conhece os instrumentos de cordas?
+                        <span className="font-[raleway] text-xs tracking-widest text-navy/40">
+                            04 — ATIVIDADE
+                        </span>
+                    </div>
+
+                    <div className="grid gap-10 md:grid-cols-[1fr_auto] md:items-end">
+
+                        <div>
+                            <h2 className="max-w-2xl font-[Libre-Baskerville] text-4xl leading-tight text-navy md:text-6xl">
+                                Você gostaria de descontrair com um <span className="italic">jogo</span>?
                             </h2>
-                        </motion.div>
 
-                        <motion.div
-                            {...reveal}
-                            transition={{
-                                ...reveal.transition,
-                                delay: 0.2,
-                            }}
-                            className="md:pl-12"
-                        >
-                            <p className="font-[raleway] text-base leading-8 text-slate-600">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Explore os instrumentos,
-                                reconheça seus sons e descubra mais sobre
-                                o universo da música.
+                            <p className="mt-6 max-w-xl font-[raleway] text-base leading-8 text-slate-600">
+                                Que tal colocar seus conhecimentos musicais à prova? Explore uma atividade interativa sobre música e instrumentos de cordas, teste o que você sabe e descubra novos aspectos desse universo enquanto se diverte.
                             </p>
+                        </div>
 
-                            <a
-                                href="/jogo"
-                                className="mt-8 inline-flex items-center gap-3 font-[raleway] text-sm font-semibold text-navy transition-all hover:gap-5"
-                            >
-                                Conhecer o jogo
-                                <span aria-hidden="true">→</span>
-                            </a>
-                        </motion.div>
+                        <a
+                            href="/jogo"
+                            className="inline-flex w-fit items-center gap-4 border-b border-navy pb-3 font-[raleway] text-sm font-semibold text-navy transition-all duration-300 hover:gap-6"
+                        >
+                            Acessar o jogo
+                            <span aria-hidden="true">→</span>
+                        </a>
 
                     </div>
-                </div>
+                </motion.div>
+
             </div>
         </section>
     );

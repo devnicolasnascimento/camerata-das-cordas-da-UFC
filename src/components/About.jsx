@@ -30,9 +30,8 @@ const instruments = [
 ];
 
 const team = [
-    { name: "Nome do integrante", role: "Coordenação" },
-    { name: "Nome do integrante", role: "Professor(a)" },
-    { name: "Nome do integrante", role: "Professor(a)" },
+    { name: "Profa Dra. Liu Man Ying", role: "Professora de violino e viola" },
+    { name: "Profa Dra. Dora Utermohl de Queiroz", role: "Professora de violoncelo e contrabaixo" },
 ];
 
 export default function About() {
@@ -54,10 +53,7 @@ export default function About() {
                     </h2>
 
                     <p className="font-[raleway] text-base leading-relaxed text-navy/75 md:text-lg">
-                        Lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit. Conheça um pouco mais sobre
-                        o Ensino Coletivo de Cordas da UFC, sua
-                        proposta e as atividades desenvolvidas.
+                        O Ensino Coletivo de Violino e Viola da UFC é um projeto de extensão que promove o acesso gratuito ao ensino desses instrumentos por meio de aulas em grupo e da aprendizagem compartilhada.
                     </p>
                 </motion.div>
 
@@ -66,17 +62,15 @@ export default function About() {
 
                     <motion.div {...reveal}>
                         <span className="mb-4 block font-[raleway] text-sm font-bold uppercase tracking-[0.12em] text-navy/60">
-                            01 — Quem somos
+                            01 — QUEM SOMOS
                         </span>
 
                         <h3 className="mb-4 font-[Libre-Baskerville] text-2xl">
-                            Nossa essência
+                            Ensino de violino e viola
                         </h3>
 
                         <p className="font-[raleway] leading-relaxed text-navy/75">
-                            Lorem ipsum dolor sit amet, consectetur
-                            adipiscing elit. Sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua.
+                            O Ensino Coletivo de Cordas da UFC é um projeto de extensão que oferece formação musical em violino e viola, utilizando aulas em grupo e a aprendizagem compartilhada. A proposta contempla diferentes níveis de desenvolvimento, desde pessoas sem experiência musical até participantes que desejam aprimorar seus conhecimentos.
                         </p>
                     </motion.div>
 
@@ -85,17 +79,15 @@ export default function About() {
                         transition={{ ...reveal.transition, delay: 0.15 }}
                     >
                         <span className="mb-4 block font-[raleway] text-sm font-bold uppercase tracking-[0.12em] text-navy/60">
-                            02 — Nossa atuação
+                            02 — NOSSA ATUAÇÃO
                         </span>
 
                         <h3 className="mb-4 font-[Libre-Baskerville] text-2xl">
-                            Nossa proposta
+                            Formação musical
                         </h3>
 
                         <p className="font-[raleway] leading-relaxed text-navy/75">
-                            Lorem ipsum dolor sit amet, consectetur
-                            adipiscing elit. Sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua.
+                            O projeto oferece aulas de violino e viola organizadas em níveis de aprendizagem. Além do desenvolvimento técnico dos instrumentos, os participantes têm contato com a prática coletiva por meio de repertório camerístico.
                         </p>
                     </motion.div>
 
@@ -114,10 +106,7 @@ export default function About() {
                         </h3>
 
                         <p className="font-[raleway] leading-relaxed text-navy/75">
-                            Lorem ipsum dolor sit amet, consectetur
-                            adipiscing elit. A proposta envolve a
-                            aprendizagem musical em grupo, promovendo
-                            a troca de experiências e a prática conjunta.
+                            O ensino acontece por meio de aulas em grupo, utilizando a aprendizagem compartilhada como metodologia. Os participantes estudam os instrumentos, desenvolvem suas habilidades técnicas e também realizam práticas musicais em conjunto.
                         </p>
                     </motion.div>
 
@@ -166,7 +155,7 @@ export default function About() {
                 </div>
 
                 {/* Equipe */}
-                <div className="mt-24 border-t border-navy/10 pt-12">
+                <div className="mt-24 border-t border-navy/10 pt-12 ">
 
                     <motion.div {...reveal} className="mb-10">
                         <p className="mb-4 font-[raleway] text-sm font-bold uppercase tracking-[0.12em] text-navy/60">
@@ -223,20 +212,6 @@ export default function About() {
                     {...reveal}
                     className="mt-24 border-t border-navy/10 pt-12"
                 >
-                    <p className="mb-4 font-[raleway] text-sm font-bold uppercase tracking-[0.12em] text-navy/60">
-                        Nossa trajetória
-                    </p>
-
-                    <h3 className="mb-6 max-w-2xl font-[Libre-Baskerville] text-3xl leading-snug md:text-4xl">
-                        A música também se constrói em conjunto.
-                    </h3>
-
-                    <a
-                        href="#noticias"
-                        className="inline-block border-b border-navy pb-1 font-[raleway] text-sm font-semibold transition-opacity hover:opacity-60"
-                    >
-                        Acompanhe nossas atividades
-                    </a>
                 </motion.div>
 
             </div>
