@@ -4,7 +4,7 @@ import { motion } from "motion/react";
 import { Link } from "react-router-dom";
 import LikeButton from "./LikeButton";
 
-const API_URL = "http://localhost:3000/api/posts";
+const API_URL = "https://cordas-ufc-api.onrender.com/api/posts";
 
 const reveal = {
     initial: {

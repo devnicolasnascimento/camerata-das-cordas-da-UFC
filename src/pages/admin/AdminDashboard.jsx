@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { motion, AnimatePresence } from "motion/react";
 
-const API_URL = "http://localhost:3000/api";
+const API_URL = "https://cordas-ufc-api.onrender.com/api";
 
 const emptyForm = {
     title: "",
@@ -537,11 +537,10 @@ export default function AdminDashboard() {
                                     <div className="min-w-0">
                                         <div className="mb-3 flex flex-wrap items-center gap-3">
                                             <span
-                                                className={`font-[raleway] text-xs font-semibold uppercase tracking-wider ${
-                                                    post.published
+                                                className={`font-[raleway] text-xs font-semibold uppercase tracking-wider ${post.published
                                                         ? "text-green-700"
                                                         : "text-[#94794d]"
-                                                }`}
+                                                    }`}
                                             >
                                                 {post.published
                                                     ? "Publicada"

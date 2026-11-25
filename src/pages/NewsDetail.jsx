@@ -4,7 +4,7 @@ import { Link, useParams } from "react-router-dom";
 import { motion } from "motion/react";
 import LikeButton from "../components/LikeButton";
 
-const API_URL = "http://localhost:3000/api/posts";
+const API_URL = "https://cordas-ufc-api.onrender.com/api/posts";
 
 export default function NewsDetail() {
     const { slug } = useParams();

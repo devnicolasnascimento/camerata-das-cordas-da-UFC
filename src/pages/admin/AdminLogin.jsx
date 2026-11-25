@@ -37,7 +37,7 @@ export default function AdminLogin() {
 
         try {
             const response = await fetch(
-                "http://localhost:3000/api/auth/login",
+                "https://cordas-ufc-api.onrender.com/api/auth/login",
                 {
                     method: "POST",
                     headers: {

@@ -1,7 +1,7 @@
 
 import { useEffect, useState } from "react";
 
-const API_URL = "http://localhost:3000/api/posts";
+const API_URL = "https://cordas-ufc-api.onrender.com/api/posts";
 
 function getVisitorId() {
     let id = localStorage.getItem("cordasVisitorId");
@@ -108,11 +108,10 @@ export default function LikeButton({ slug }) {
         >
             <svg
                 viewBox="0 0 24 24"
-                className={`h-5 w-5 transition-transform duration-200 ${
-                    liked
+                className={`h-5 w-5 transition-transform duration-200 ${liked
                         ? "scale-110 fill-red-500 stroke-red-500"
                         : "fill-none stroke-current"
-                }`}
+                    }`}
                 strokeWidth="1.8"
                 strokeLinecap="round"
                 strokeLinejoin="round"
